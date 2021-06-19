@@ -1,0 +1,21 @@
+{
+    /*
+       "include" 用来指定哪些ts文件需要被编译
+       路径： ** 表示任意目录
+             *  表示任意文件
+
+        "exclude" 不需要被编译的文件目录     
+    */
+    "include": ["./src/**/*"],
+    "compilerOptions": {
+        "module": "es2015",
+        "target": "es2015",
+        "strict": true,
+        "outDir": "./dist", // 指定编译后的文件所在目录
+        "allowJs": false, // 是否对js文件进行编译，默认是 false
+        "checkJs": false, // 是否检查js代码是否符合语法规范，默认 false
+        "removeComments": false, // 是否移除注释，默认 false
+        "noEmit": false, // 不生成编译后的文件，默认 false
+        "noEmitOnError": true,// 当有错误时不生成编译后的文件，默认 false
+    }
+}
