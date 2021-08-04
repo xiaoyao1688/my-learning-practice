@@ -74,3 +74,135 @@
         该属性可能取6个值，除了auto，其他都与align-items属性完全一致
 
 */
+html,body{
+    height: 100%;
+}
+body{
+    margin: 0;
+}
+.wrapper{
+    box-sizing: border-box;
+    background: #2b2b2b;
+    padding: 10px;
+    height: 100%;
+}
+
+.box{
+    float: left;
+    margin: 0 10px 10px 0;
+    box-sizing: border-box;
+    border:5px solid #fff;
+    border-radius: 4px;
+    width: 82px;
+    height: 82px;
+    background: #e7e7e7;
+}
+
+.item{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: black;
+}
+
+.demo-1{
+    display: flex;
+}
+
+.demo-2{
+    display: flex;
+    justify-content: center;
+}
+
+.demo-3{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.demo-4{
+    display: flex;
+    align-items: center;
+}
+
+.demo-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.demo-6{
+    display: flex;
+    align-items: flex-end;
+}
+
+.demo-7{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.demo-8{
+    display: flex;
+    justify-content: space-between;
+}
+.demo-9{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.demo-10{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.demo-11{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.demo-12{
+    display: flex;
+}
+.demo-12 .item:nth-child(2){
+    align-self: center;
+}
+
+.demo-13{
+    display: flex;
+    justify-content: space-between;
+}
+.demo-13 .item:nth-child(2){
+    align-self: flex-end;
+}
+
+.demo-14{
+    display: flex;
+}
+.demo-14 .item:nth-child(2){
+    align-self: center;
+}
+.demo-14 .item:nth-child(3){
+    align-self: flex-end;
+}
+.demo-15{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-between;
+}
+
+.demo-16{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.demo-16 .column{
+    display: flex;
+    /*background: red;*/
+    justify-content: space-between;
+}
