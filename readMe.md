@@ -52,3 +52,5 @@
 合并分支,`git merge sourceBranch` 把 sourceBranch 分支的修改合并到当前分支
 
 查看所有分支提交信息,`git log --all`
+
+我TM懵逼了呀，还是Idea好用的样子
