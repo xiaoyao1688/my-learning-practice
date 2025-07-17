@@ -24,6 +24,8 @@
 
 推送到远程，`git push <仓库名称> <分支名称>`
 
+删除远程分支,`git push origin :<分支名称>`
+
 连接远程仓库 `git remote add origin https://github.com/xxx`
 
 查看远程仓库 `git remote`
